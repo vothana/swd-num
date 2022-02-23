@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services</title>
+  <link rel="shortcut icon" href="./assets/Images/SWD_Logo.png" type="image/x-icon" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+    }
+
+    .nav {
+      width: 100%;
+      height: 50px;
+      background-color: black;
+      text-align: center;
+      border-bottom: 2px solid aqua;
+    }
+
+    .nav a {
+      font-size: 20px;
+      margin: 0 20px;
+      line-height: 50px;
+      color: white;
+      transition: all 0.3s ease-out;
+    }
+
+    .active,
+    .nav a:hover {
+      color: aqua;
+      border-bottom: 1px solid yellow;
+      transition: all 0.3s ease-in;
+    }
+
+    .img {
+      opacity: 0.7;
+      transition: all 0.3s ease-out;
+    }
+
+    .img:hover {
+      opacity: 1;
+      transition: all 0.3s ease-in;
+      transform: scale(1.02);
+    }
+
+    .tb {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 0;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      text-align: left;
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="width: 1400px; height: 100vh; margin: 0 auto">
+    <!-- Manu -->
+    <div>
+      <div class="nav" style="height: 7vh">
+        <a href="/index.html">Home</a>
+        <a href="/services.html" active>Services</a>
+        <a href="/about_us.html">About Us</a>
+        <a href="/contact_us.html">Contact Us</a>
+      </div>
+    </div>
+    <!--End Manu-->
+    <!--Banner-->
+    <div style=" width: 100%; height: 30vh; background-color: antiquewhite; overflow: hidden; ">
+      <h1 style="line-height: 30vh; text-align: center;">OUR SERVICES</h1>
+    </div>
+    <!--End Banner-->
+    <!--Content-->
+    <h1 style="text-align: center; line-height: 10vh ; width: 100%; background-color: blueviolet;">❤️ TABLE ❤️ </h1>
+    <div class="tb" style="width: 100%; height: auto; background-color: bisque">
+      <table width="80%">
+        <tr>
+          <th>No.</th>
+          <th>Service</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Else</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Guid</td>
+          <td>2 Days</td>
+          <td>145$</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Guid</td>
+          <td>2 Days</td>
+          <td>145$</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Guid</td>
+          <td>2 Days</td>
+          <td>145$</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Guid</td>
+          <td>2 Days</td>
+          <td>145$</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Guid</td>
+          <td>2 Days</td>
+          <td>145$</td>
+          <td>-</td>
+        </tr>
+      </table>
+    </div>
+    <!--End Content-->
+    <!--Footer-->
+    <div style="width: 100%; height: 8vh; background-color: aquamarine">
+      <h1 style="text-align: center; line-height: 8vh">FOOTER</h1>
+    </div>
+    <!--End Footer-->
+  </div>
+</body>
+
+</html>
